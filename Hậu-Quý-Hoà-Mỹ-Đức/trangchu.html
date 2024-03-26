@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Khách Sạn</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="headline">
+      <h3>DANH SÁCH CÁC PHÒNG</h3>
+    </div>
+    <div id="searchWrapper">
+      <h1>Tìm kiếm</h1>
+      <form id="searchForm">
+        <label for="searchInput">Nhập tên phòng</label>
+        <input type="text" id="searchInput" name="searchInput">
+        <button style="background-color :#cdc8b1; font-size : 19px;" type="submit">Tìm</button>
+      </form>
+    </div>
+    <div class="room-container" id="roomList">
+      <!-- Room cards will be dynamically added here -->
+    </div>
+  </div>
+  <div class="footer">
+    <a  href="khachsan.html" target="_blank">Quản Lý Phòng Khách Sạn</a>
+  </div>
+  <script src="data1.js"></script>
+</body>
+</html>
